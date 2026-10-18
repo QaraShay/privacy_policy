@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – StudyLock</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+      --code-bg: #f1f5f9;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 36px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      line-height: 1.25;
+      color: #0f172a;
+    }
+    h2 {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 1.35rem;
+      color: #0f172a;
+    }
+    h3 {
+      margin-top: 1.25rem;
+      font-size: 1.05rem;
+      color: #1e293b;
+    }
+    p, li {
+      color: var(--text);
+    }
+    ul {
+      padding-left: 1.35rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+    .meta {
+      background: var(--code-bg);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 18px 0 24px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .meta p {
+      margin: 4px 0;
+      color: var(--text);
+    }
+    .table-wrap {
+      overflow-x: auto;
+      margin: 16px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th {
+      background: var(--code-bg);
+      font-weight: 600;
+      color: #0f172a;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy – StudyLock</h1>
+    <p><strong>Last updated:</strong> 18 October 2026</p>
+
+    <p>
+      This Privacy Policy explains how <strong>[YOUR NAME / COMPANY NAME]</strong> ("we", "us", "our")
+      collects, uses, shares and protects personal data when you use the StudyLock mobile application
+      and its online services (collectively, the "Service") worldwide.
+    </p>
+
+    <div class="meta">
+      <p><strong>Data controller:</strong> [YOUR NAME / COMPANY NAME], [ADDRESS], [COUNTRY]</p>
+      <p><strong>Privacy contact:</strong> <a href="mailto:[PRIVACY EMAIL ADDRESS]">[PRIVACY EMAIL ADDRESS]</a></p>
+    </div>
+
+    <h2>1. What StudyLock does</h2>
+    <p>
+      StudyLock lets you upload study materials, organises them by subject and topic, uses artificial
+      intelligence to extract text, generate quizzes, flashcards, explanations and tutor answers from
+      your materials, schedules spaced-repetition reviews (FSRS), and tracks your study progress across devices.
+    </p>
+
+    <h2>2. Data we collect</h2>
+
+    <h3>2.1 Data you provide</h3>
+    <ul>
+      <li><strong>Account data:</strong> email address, display name, internal user identifier (<code>User ID</code>) and, if you sign up with email and password, your password (stored exclusively as a salted <code>bcrypt</code> hash, never in plain text).</li>
+      <li><strong>Sign in with Apple / Google:</strong> a stable account identifier (<code>sub</code>) from Apple or Google, plus the email address and display name shared by the provider. If you use Apple's "Hide My Email", we only receive Apple's private relay address.</li>
+      <li><strong>Study content:</strong> files and text you upload or paste (PDF, Word <code>.docx</code>, PNG/JPEG/WebP images, plain text), web links you add, the text extracted or normalised from them, vector embeddings generated from your text chunks, and the subjects and topics you create.</li>
+      <li><strong>Study activity and state:</strong> generated quizzes and flashcards, your multiple-choice and open-ended answers, AI evaluation feedback, scores, spaced-repetition review state, study sessions, reward ledger minutes, and your messages to the AI tutor and its replies.</li>
+      <li><strong>Settings:</strong> study preferences such as daily goal, quiz length, difficulty and notification preferences.</li>
+    </ul>
+
+    <h3>2.2 Data collected automatically</h3>
+    <ul>
+      <li><strong>Authentication session metadata:</strong> when you sign in, we record a hashed refresh token, the session's creation and expiry timestamps, the device's <code>User-Agent</code> string and IP address to secure your account, manage active sessions and prevent abuse.</li>
+      <li><strong>Technical logs:</strong> our servers record standard operational and error logs (such as request status and error diagnostics) for security, rate-limiting and troubleshooting.</li>
+    </ul>
+
+    <h3>2.3 Data we do not collect</h3>
+    <p>
+      We do not use third-party advertising or cross-app analytics SDKs, we do not track you across apps
+      or websites owned by other companies (<code>NSPrivacyTracking = false</code>), we do not sell or rent
+      your personal data, and we do not collect precise geolocation, contacts, microphone, camera roll
+      (beyond individual files you explicitly select for upload) or health data. This version of the app
+      does not read or monitor which other apps you use on your device.
+    </p>
+
+    <h2>3. How we use your data and legal bases (EEA / UK / Switzerland GDPR)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Purpose</th>
+            <th>Categories of data</th>
+            <th>Legal basis (Art. 6 GDPR)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Create and manage your account, authenticate you and sync your study state across devices</td>
+            <td>Account data, Study content, Study activity, Settings</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+          </tr>
+          <tr>
+            <td>Extract text (including OCR), index materials, generate quizzes/flashcards, evaluate answers and provide AI tutor responses</td>
+            <td>Study content, Study activity</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+          </tr>
+          <tr>
+            <td>Keep the Service secure, enforce rate limits, prevent abuse and fraud, diagnose and fix errors</td>
+            <td>Session metadata, Technical logs</td>
+            <td>Legitimate interests (Art. 6(1)(f))</td>
+          </tr>
+          <tr>
+            <td>Respond to support or privacy requests and comply with applicable laws</td>
+            <td>Account data, communications</td>
+            <td>Legitimate interests (Art. 6(1)(f)) / Legal obligation (Art. 6(1)(c))</td>
+          </tr>
+          <tr>
+            <td>Apply optional preferences (such as study reminders you enable)</td>
+            <td>Settings</td>
+            <td>Consent (Art. 6(1)(a)) — you can change this at any time in the app</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>4. Artificial Intelligence (AI) processing</h2>
+    <p>
+      To provide StudyLock's core features, relevant parts of your study content and your interactions
+      with the AI tutor are sent to <strong>OpenAI, L.L.C.</strong> through its API:
+    </p>
+    <ul>
+      <li><strong>Text extraction (OCR) and formatting:</strong> when you upload scanned PDFs or images, the file is sent to OpenAI's Vision API to transcribe readable study text and format it into structured Markdown.</li>
+      <li><strong>Semantic indexing (embeddings):</strong> text chunks from your materials are sent to OpenAI's Embeddings API to create numerical vectors stored in our database so the app can retrieve relevant passages.</li>
+      <li><strong>Quizzes, flashcards, answer grading and AI tutor:</strong> relevant excerpts from your study materials, your open-ended quiz answers and your tutor chat messages are sent to OpenAI's API to generate questions, flashcards, grading feedback and tutor explanations.</li>
+    </ul>
+    <p>
+      We send only the content necessary to fulfil each request and configure OpenAI Responses API requests
+      with <code>store: false</code>. Under OpenAI's API data usage policies, data submitted via the OpenAI API
+      is <strong>not</strong> used to train or improve OpenAI's models by default; OpenAI may retain API inputs
+      and outputs for up to 30 days solely to monitor for and prevent abuse before deletion. For details, see
+      <a href="https://openai.com/enterprise-privacy" target="_blank" rel="noopener noreferrer">OpenAI's Enterprise &amp; API Privacy documentation</a>
+      and
+      <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer">OpenAI's Privacy Policy</a>.
+    </p>
+    <p>
+      AI-generated outputs may contain inaccuracies. Please do not upload confidential material you do not have
+      the right to share, and avoid uploading sensitive personal data (such as health, biometric, financial or
+      government ID information).
+    </p>
+
+    <h2>5. Who we share data with (Service Providers)</h2>
+    <p>
+      We share personal data only with infrastructure and service providers acting as data processors on our
+      behalf to operate the Service:
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>Role / Purpose</th>
+            <th>Data processed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Railway Corp.</strong></td>
+            <td>Cloud hosting of the API, background worker, PostgreSQL (<code>pgvector</code>) database and Redis queue</td>
+            <td>Account data, study data, embeddings, session metadata, technical logs</td>
+          </tr>
+          <tr>
+            <td><strong>Cloudflare, Inc. (Cloudflare R2) / Amazon Web Services (S3)</strong></td>
+            <td>Encrypted object storage for uploaded files</td>
+            <td>Files you upload (PDFs, documents, images)</td>
+          </tr>
+          <tr>
+            <td><strong>OpenAI, L.L.C.</strong></td>
+            <td>AI text/vision extraction, embeddings, quiz generation, answer grading and AI tutor</td>
+            <td>Uploaded documents/images (for OCR), study content excerpts, quiz answers, tutor messages</td>
+          </tr>
+          <tr>
+            <td><strong>Apple Inc.</strong></td>
+            <td>Sign in with Apple authentication and App Store distribution</td>
+            <td>Authentication tokens and account identifiers</td>
+          </tr>
+          <tr>
+            <td><strong>Google LLC</strong></td>
+            <td>Google Sign-In authentication</td>
+            <td>Authentication tokens and account identifiers</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      We may also disclose data if strictly required by law, court order or legal process, or to protect the
+      rights, property or safety of our users or the public. If StudyLock is involved in a merger, acquisition
+      or sale of assets, user data may be transferred to the successor entity subject to this Privacy Policy.
+    </p>
+
+    <h2>6. International data transfers</h2>
+    <p>
+      We operate globally and our service providers (including Railway, Cloudflare and OpenAI) may process and
+      store data in the <strong>United States</strong> and the <strong>European Economic Area (EEA)</strong>,
+      or other countries outside your country of residence. Where personal data is transferred outside the EEA,
+      the United Kingdom or Switzerland to a country not subject to an adequacy decision, we rely on appropriate
+      legal safeguards, including the European Commission's <strong>Standard Contractual Clauses (SCCs)</strong>
+      (and the UK International Data Transfer Addendum / Swiss equivalent) and, where applicable, the provider's
+      certification under the <strong>EU–U.S. Data Privacy Framework</strong> (and its UK and Swiss extensions).
+    </p>
+
+    <h2>7. Data stored locally on your device</h2>
+    <p>
+      The app stores a local copy of your study state (subjects, topics, materials metadata, quizzes, review
+      schedules and settings) and authentication tokens in the device's sandboxed app storage so the app can
+      load quickly and work offline. Selecting <strong>"Erase data on this device"</strong> in <em>Profile</em>
+      clears this local cache and signs you out on that device without deleting your cloud account.
+    </p>
+
+    <h2>8. Data retention and account deletion</h2>
+    <ul>
+      <li><strong>Retention:</strong> we keep your personal data only for as long as your account remains active and as needed to provide the Service.</li>
+      <li><strong>In-app account deletion:</strong> you can permanently delete your account at any time directly inside the app via <strong>Profile → Delete account</strong>. Confirming deletion immediately and permanently removes your user record and all associated data from our production database (account profile, authentication sessions, subjects, topics, materials, extracted text, vector embeddings, quizzes, answers, progress, study state, AI tutor messages, reward ledger and settings) and deletes your uploaded files from cloud object storage. Deletion is irreversible.</li>
+      <li><strong>Deletion by email:</strong> if you can no longer access the app, you may request full account and data deletion by emailing <a href="mailto:[PRIVACY EMAIL ADDRESS]">[PRIVACY EMAIL ADDRESS]</a> from the email address associated with your account.</li>
+      <li><strong>Backups and logs:</strong> after deletion from our active systems, residual encrypted copies in automated database backups and standard operational logs are automatically overwritten or purged within <strong>30 days</strong>.</li>
+    </ul>
+
+    <h2>9. Your privacy rights worldwide</h2>
+    <p>Depending on where you live, you have specific rights regarding your personal data:</p>
+    <ul>
+      <li><strong>European Economic Area (EEA), United Kingdom and Switzerland (GDPR / UK GDPR / FADP):</strong> you have the right to request <strong>access</strong> to your personal data, <strong>rectification</strong> of inaccurate data, <strong>erasure</strong> ("right to be forgotten"), <strong>restriction</strong> of processing, <strong>data portability</strong>, and to <strong>object</strong> to processing based on legitimate interests, as well as the right to <strong>withdraw consent</strong> at any time where processing is based on consent. You also have the right to lodge a complaint with your national data protection supervisory authority (for example, in Italy: <em>Garante per la protezione dei dati personali</em>, <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>; in the UK: the <em>Information Commissioner's Office (ICO)</em>, <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>).</li>
+      <li><strong>United States (including California CCPA/CPRA and other U.S. state privacy laws):</strong> you have the right to know and access the categories and specific pieces of personal information we collect, the right to request deletion or correction of your personal information, and the right not to be discriminated against for exercising your privacy rights. <strong>We do not "sell" or "share" (for cross-context behavioral advertising) your personal information</strong>, and we do not use or disclose sensitive personal information for purposes other than providing the Service you requested.</li>
+      <li><strong>Brazil (LGPD), Canada (PIPEDA) and other jurisdictions:</strong> you may request confirmation of processing, access, correction, anonymisation or deletion of your personal data, information about third-party sharing, and revocation of consent in accordance with applicable local law.</li>
+    </ul>
+    <p>
+      You can exercise your access, correction and deletion rights directly inside the app or by contacting us at
+      <a href="mailto:[PRIVACY EMAIL ADDRESS]">[PRIVACY EMAIL ADDRESS]</a>. We respond to verified requests within
+      30 days (or any shorter period required by applicable law).
+    </p>
+
+    <h2>10. Security</h2>
+    <p>
+      We protect your data using industry-standard technical and organisational measures, including TLS/HTTPS
+      encryption in transit, <code>bcrypt</code> password hashing, short-lived JWT access tokens with revocable
+      refresh sessions, strict per-user database isolation, and access-controlled object storage. However, no
+      method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee
+      absolute security.
+    </p>
+
+    <h2>11. Children's privacy</h2>
+    <p>
+      StudyLock is a general-audience study tool and is <strong>not directed to children under 13 years of age</strong>
+      (or under <strong>16 years of age</strong> in the EEA/UK, or the minimum age required for digital consent in
+      your country of residence, such as 14 in Italy, without parental consent). We do not knowingly collect personal
+      data from children below these age thresholds. If you are a parent or guardian and believe a child has provided
+      us with personal data without required consent, please contact us at
+      <a href="mailto:[PRIVACY EMAIL ADDRESS]">[PRIVACY EMAIL ADDRESS]</a> and we will promptly delete the account
+      and associated data.
+    </p>
+
+    <h2>12. Changes to this Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect technical, operational or legal changes.
+      When we do, we will update the "Last updated" date at the top of this page and, if the changes are material,
+      notify you via the app or by email.
+    </p>
+
+    <h2>13. Contact us</h2>
+    <p>
+      If you have any questions, concerns or requests regarding this Privacy Policy or your personal data, please contact:
+    </p>
+    <p>
+      <strong>[YOUR NAME / COMPANY NAME]</strong><br />
+      [ADDRESS], [COUNTRY]<br />
+      Email: <a href="mailto:[PRIVACY EMAIL ADDRESS]">[PRIVACY EMAIL ADDRESS]</a>
+    </p>
+  </main>
+</body>
+</html>
