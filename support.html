@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &amp; Contact – StudyLock</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --code-bg: #f1f5f9;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 36px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 2rem;
+      line-height: 1.25;
+      color: #0f172a;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+    .contact-card {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      margin: 28px 0;
+    }
+    .contact-card h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #0f172a;
+    }
+    .contact-card p {
+      margin: 8px 0 16px;
+      color: var(--muted);
+    }
+    .email-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: background 0.2s ease;
+    }
+    .email-btn:hover {
+      background: var(--accent-hover);
+      color: #ffffff;
+      text-decoration: none;
+    }
+    h2 {
+      margin-top: 2.2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 1.35rem;
+      color: #0f172a;
+    }
+    .faq-item {
+      margin-bottom: 1.4rem;
+    }
+    .faq-item h3 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      color: #0f172a;
+    }
+    .faq-item p {
+      margin: 0;
+      color: var(--text);
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="header">
+      <h1>StudyLock Support</h1>
+      <p class="subtitle">We're here to help you get the most out of StudyLock</p>
+    </div>
+
+    <div class="contact-card">
+      <h2>Need Help or Have Questions?</h2>
+      <p>Whether you found a bug, need help with your account, or have a suggestion, reach out directly:</p>
+      <!-- Replace with your actual support email -->
+      <a class="email-btn" href="mailto:support@studylock.app">Email Support: kalkabay.umar@gmail.com</a>
+      <p style="font-size: 0.85rem; margin-top: 12px; margin-bottom: 0;">Typical response time: within 24–48 hours.</p>
+    </div>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <div class="faq-item">
+      <h3>How do I upload study materials?</h3>
+      <p>Tap on any Subject, open a Topic (or create a new one), and tap <strong>Add Material</strong>. You can upload PDFs, Word documents, images, or paste text and links. Our AI will automatically extract readable text and prepare quizzes for you.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Why does a newly uploaded material take a moment to be ready?</h3>
+      <p>Our background service extracts the text, creates searchable semantic embeddings, and generates a starter quiz. For large PDFs or scanned documents, this processing typically takes between 10 to 60 seconds.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How can I delete my account and data?</h3>
+      <p>You can permanently delete your account and all associated study materials at any time directly in the app. Go to <strong>Profile &rarr; Delete account</strong>. Once confirmed, all your materials, progress, and account data are immediately and permanently erased from our servers.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I report a bug or request a feature?</h3>
+      <p>Please send us an email at the support address above with your device model, iOS version, and a brief description of the issue or idea.</p>
+    </div>
+
+    <footer>
+      <p>&copy; StudyLock. All rights reserved. &bull; <a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
